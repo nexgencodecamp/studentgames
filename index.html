@@ -9,39 +9,80 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/parallax.min.js"></script>
 </head>
+
+
+<style>
+.parallax-window{
+  min-height: 400px;
+  background: transparent;
+}
+.window-wrapper{
+  padding-top: 50px;
+  /*height: 800px;*/
+  background: #fffff;
+}
+
+</style>
 <body>
 
+
 <div class="jumbotron text-center">
-  <h1>NexGen CodeCamp - studentgames</h1>
+  <h1>NexGen CodeCamp - Student Games</h1>
   <p>Game index</p>
 </div>
 
-<div class="container">
-  <div class="row">
-
-    <div class="col-sm-4">
-      <img src="images/pongThumbnail.png" class="img-thumbnail" alt="Image not found" width="304" height="236">
-      <h3><a href="pong/index.html">Pong</a></h3>
-      <p>Game details here</p>
-      <p>Additional information here</p>
-    </div>
-
-    <div class="col-sm-4">
-      <img src="images/genericBlank.jpg" class="img-thumbnail" alt="Image not found" width="304" height="236">
-      <h3>Game 2</h3>
-      <p>Game information here</p>
-      <p>Additional information here</p>
-    </div>
-
-    <div class="col-sm-4">
-      <img src="images/genericBlank.jpg" class="img-thumbnail" alt="Image not found" width="304" height="236">
-      <h3>Game 3</h3>
-      <p>Game information here</p>
-      <p>Additional information here</p>
+<div class="window-wrapper">
+  <div class="container">
+    <div class="jumbotron">
+      <h3>Welcome!</h3>
+      <p>Text here???</p>
+      <p>Scroll below to see a list of games</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Button (Link to NexGen website???)</a></p>
     </div>
   </div>
 </div>
+
+<div class="window-wrapper">
+  <div class="container">
+    <h2>Pong</h2>
+    <p>The classical arcade-style game that involves two players rebounding a central moving ball with
+      designated paddles.
+    </p>
+  </div>
+</div>
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/pongThumbnail2.png">
+  <div style="padding-top:200px" class='text-center'>
+      <h1 style="color:#fff; font-weight:bolder;">Pong</h1>
+      <a href="pong/index.html" class="btn btn-success">Go to game</a>
+
+  </div>
+</div>
+
+<div class="window-wrapper">
+  <div class="container">
+    <h2>Platformer</h2>
+    <p>A 2D horizontal platformer designed by students in the JavaScript for Beginners course.
+    </p>
+  </div>
+</div>
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/platformerThumbnail.png">
+  <div style="padding-top:200px" class='text-center'>
+      <h1 style="color:#fff; font-weight:bolder;">Platformer</h1>
+      <a href="platformerJsBeg/index.html" class="btn btn-success">Go to library</a>
+
+  </div>
+</div>
+
+
+<script>
+$('.parallax-window').parallax();
+</script>
+
+
 <div id="infinite" style="height: 2000px"></div>
 
 </body>
