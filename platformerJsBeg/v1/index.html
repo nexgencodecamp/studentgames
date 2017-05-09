@@ -13,6 +13,23 @@
 <body>
 
 <style>
+.parallax
+{
+    /* Set a height*/
+    height: 500px;
+    margin-bottom: 50px;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonSpacing
+{
+  margin-bottom: 15px;
+}
 
 iframe
 {
@@ -52,13 +69,72 @@ iframe
 }
 </style>
 
-<div class="jumbotron text-center">
-  <h1>Platformers</h1>
-  <p>JS Beginner Course</p>
-  <a href="../index.html" class="btn btn-success">Back to versions index</a>
-  <a href="../../index.html" class="btn btn-danger" style="margin-bottom: 2px;">Home</a><br>
+<div class="container">
+  <a href="#myframe"></a>
+  <iframe name="myiframe" src="blank/index.html" height="720" width="1100" align="middle" frameborder="1">The iFrame will appear here</iframe>
 </div>
 
+<div class="container">
+	<center>
+		<a href="../index.html" class="btn btn-success">Back to versions index</a>
+		<a href="../../index.html" class="btn btn-danger">Home</a><br>
+	</center>
+</div>
+
+<div class="jumbotron text-center" style="margin-top: 20px">
+  <h1>Platformers</h1>
+  <p>JS Beginner Course</p>
+</div>
+
+<div class="container">
+  <h2>CY</h2>
+  <!--<p>
+    <em>A 2D horizontal platformer designed by students in the JavaScript for Beginners course.</em><br>
+    Use the "W", "A" and "D" keys to control the character's jump, left and right movement.
+  </p>-->
+</div>
+
+
+<div class="parallax" style="background-image: url(images/screenshotCY.png)">
+  <div style="padding-top:200px" class="text-center">
+      <h1 style="color:#fff; font-weight:bolder;">CY</h1>
+      <a href="games/CY/index.html" class="btn btn-success" target="myiframe">Go to game</a>
+  </div>
+</div>
+
+<div class="container">
+  <h2>CY</h2>
+  <!--<p>
+    <em>A 2D horizontal platformer designed by students in the JavaScript for Beginners course.</em><br>
+    Use the "W", "A" and "D" keys to control the character's jump, left and right movement.
+  </p>-->
+</div>
+
+<div class="parallax" style="background-image: url()">
+  <div style="padding-top:200px" class="text-center">
+      <h1 style="color:#fff; font-weight:bolder;">DS</h1>
+      <a href="games/DS/index.html" class="btn btn-success" target="myiframe">Go to game</a>
+  </div>
+</div>
+
+<div class="container">
+  <h2>CY</h2>
+  <!--<p>
+    <em>A 2D horizontal platformer designed by students in the JavaScript for Beginners course.</em><br>
+    Use the "W", "A" and "D" keys to control the character's jump, left and right movement.
+  </p>-->
+</div>
+
+<div class="parallax" style="background-image: url()">
+  <div style="padding-top:200px" class="text-center">
+      <h1 style="color:#fff; font-weight:bolder;">EL</h1>
+      <a href="games/EL/index.html" class="btn btn-success" target="myiframe">Go to game</a>
+  </div>
+</div>
+
+
+
+<!--
 <div class="container">
   <p>
     Select what game to play with the dropdown menu below.
@@ -86,9 +162,9 @@ iframe
 </div>
 </div>
 
-<div class="container">
-  <iframe name="iframe" id="youriframe" src="games/AE/index.html" height="720" width="1100" align="middle" frameborder="0"></iframe>
-</div>
+-->
+
+
 
   <!--
   <h2>CY</h2>
