@@ -1,0 +1,40 @@
+.container
+{
+  background-color: rgb(1, 167, 225);
+}
+
+.parallax
+{
+    /* Set a height*/
+    height: 500px;
+    margin-bottom: 50px;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonSpacing
+{
+  margin-bottom: 15px;
+}
+
+body
+{
+  background-color: rgb(1, 167, 225);
+  color: #fff;
+}
+
+.jumbotron
+{
+  color:#fff;
+  background-color: rgb(0, 125, 188);
+}
+
+iframe
+{
+  margin:auto;
+  margin-bottom: 20px;
+}
