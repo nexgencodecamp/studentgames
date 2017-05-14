@@ -1,0 +1,13 @@
+/*Mobile devices*/
+@media on screen and (min-device-width: 320px) and (max-device-width: 480px)
+{
+  .col-1
+  {
+    width: 100%;
+  }
+
+  .iframe
+  {
+    width: 100%;
+  }
+}
