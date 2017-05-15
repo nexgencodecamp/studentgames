@@ -11,3 +11,29 @@
     width: 100%;
   }
 }
+
+/*Tablets and small laptop devices*/
+@media on screen and (min-device-width: 481px) and (max-device-width: 1199px)
+{
+
+}
+
+/*Regular Laptop and Desktop devices*/
+@media on screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)
+{
+  .col-1
+  {
+    width: 100%;
+  }
+
+  .iframe
+  {
+    width: 100%;
+  }
+}
+
+/*Retina and higher screens*/
+@media on screen and (min-device-width: 1601px) and (max-device-width:) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)
+{
+  
+}
