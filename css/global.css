@@ -1,7 +1,7 @@
-.container
-{
+.container {
   background-color: rgb(1, 167, 225);
-  padding-bottom:190px;
+  padding-bottom:500px;
+  opacity: 0;
 }
 
 .parallax
@@ -26,6 +26,10 @@ body
 {
   background-color: rgb(1, 167, 225);
   color: #fff;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
 }
 
 .jumbotron
