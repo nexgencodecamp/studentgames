@@ -1,6 +1,5 @@
 /*Mobile devices*/
-@media on screen and (min-device-width: 320px) and (max-device-width: 480px)
-{
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .col-1
   {
     width: 100%;
@@ -18,7 +17,7 @@
 }
 
 /*Larger phones/phablets*/
-@media on screen and (min-device-width: 481px) and (max-device-width: 736px)
+@media screen and (min-device-width: 481px) and (max-device-width: 736px)
 {
   .parallax
   {
@@ -26,8 +25,14 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+    .jumbotron .h1, .jumbotron h1 {
+        margin-top: 0;
+    }
+}
+
 /*Regular Laptop and Desktop devices*/
-@media on screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1)
 {
   .col-1
   {
@@ -41,7 +46,7 @@
 }
 
 /*Retina and higher screens*/
-@media on screen and (min-device-width: 1601px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)
+@media screen and (min-device-width: 1601px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)
 {
 
 }
