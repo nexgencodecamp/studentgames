@@ -76,7 +76,7 @@ function initialiseGame () {
 
 function loadBackground () {
   //Crafty.background('#3BB9FF');
-  Crafty.background('#FFFFFF url(img/desertbg.png) repeat-x center center');
+  Crafty.background('#FFFFFF url(img/DesertBG.png) repeat-x center center');
 }
 
 function loadSprites () {
